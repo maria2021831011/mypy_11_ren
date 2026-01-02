@@ -11,6 +11,7 @@ Classifier: Programming Language :: Python :: 3.8
 Classifier: Programming Language :: Python :: 3.9
 Classifier: Operating System :: OS Independent
 Requires-Python: >=3.8
+Description-Content-Type: text/markdown
 License-File: LICENSE
 Requires-Dist: ensure==1.0.2
 Requires-Dist: py-youtube==1.1.7
@@ -20,32 +21,30 @@ Requires-Dist: mypy>=0.971; extra == "testing"
 Requires-Dist: flake8>=5.0.4; extra == "testing"
 Requires-Dist: tox>=3.25.1; extra == "testing"
 
-```
-
-```
 
 # mypy_11_ren
 
+This repository contains the source code and documentation for the
+**Inception Renderer** Python package, available on PyPI.
 
-This repository contains the source code and documentation for the Inception Renderer Python package, which is available on PyPi. The Inception Renderer is a powerful tool for rendering any youtube videos and any web page over the Jupyter/Colab Notebook.
+The Inception Renderer is a tool for rendering YouTube videos and web pages
+inside **Jupyter Notebook** and **Google Colab** environments.
 
-# How to run?
+---
 
+## 🚀 How to Run
 
-## Installation:
+### 📦 Installation
 
+#### 1. Create a conda environment
 
-#### Create a conda environment
-
-
-```shell
 conda create -n inrenderer python=3.8 -y
-```
 
-```shell
-conda activate inrenderer
-```
+#### 2. Activate the environment
 
-```shell
+<pre class="overflow-visible! px-0!" data-start="650" data-end="687"><div class="contain-inline-size rounded-2xl corner-superellipse/1.1 relative bg-token-sidebar-surface-primary"><div class="sticky top-[calc(--spacing(9)+var(--header-height))] @w-xl/main:top-9"><div class="absolute end-0 bottom-0 flex h-9 items-center pe-2"><div class="bg-token-bg-elevated-secondary text-token-text-secondary flex items-center gap-4 rounded-sm px-2 font-sans text-xs"></div></div></div><div class="overflow-y-auto p-4" dir="ltr"><code class="whitespace-pre! language-bash"><span><span>conda activate inrenderer
+</span></span></code></div></div></pre>
+
+#### 3. Install dependencies
+
 pip install -r requirements_dev.txt
-```
